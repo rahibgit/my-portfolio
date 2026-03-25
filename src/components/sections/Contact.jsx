@@ -12,26 +12,26 @@ export default function Contact() {
     {
       id: "email",
       label: t("contact.email"),
-      value: "r2001hb@gmail.com",
+      value: "Email",
       href: "mailto:r2001hb@gmail.com",
       icon: <Mail className="w-6 h-6" />,
-      color: "hover:bg-red-500/10 hover:text-red-500 hover:border-red-500/30"
+      color: "hover:bg-green-500/10 hover:text-green-500 hover:border-green-500/30"
     },
     {
       id: "whatsapp",
       label: t("contact.whatsapp"),
-      value: "00967775964574",
-      href: "https://wa.me/00967775964574",
+      value: "WhatsApp",
+      href: "https://wa.me/https://wa.me/qr/FWH7537VCQ6ZB1",
       icon: <MessageCircle className="w-6 h-6" />,
       color: "hover:bg-green-500/10 hover:text-green-500 hover:border-green-500/30"
     },
     {
       id: "github",
       label: t("contact.github"),
-      value: "github.com/rahibgit",
+      value: "GitHub",
       href: "https://github.com/rahibgit",
       icon: <Github className="w-6 h-6" />,
-      color: "hover:bg-foreground/10 hover:text-foreground hover:border-foreground/30"
+      color: "hover:bg-green-500/10 hover:text-green-500 hover:border-green-500/30"
     }
   ];
 
